@@ -1,4 +1,4 @@
-const API_URL = "http://3.236.164.214:5000/api/devices";
+const API_URL = "http://44.222.248.238:5000/api/devices";
 const tableBody = document.getElementById("deviceTableBody");
 const statusActual = document.getElementById("statusActual");
 
@@ -22,6 +22,8 @@ function cargarDatos() {
                     <td>${dispositivo.name}</td>
                     <td>${dispositivo.ip}</td>
                     <td>${dispositivo.status}</td>
+                    <td>${dispositivo.velocidad}</td>
+                    <td>${dispositivo.tipo}</td>
                     <td>${dispositivo.date}</td>
                 `;
 
